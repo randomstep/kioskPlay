@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8A2673A18D23E3900699E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A2673918D23E3900699E5F /* Foundation.framework */; };
+		B8A2673C18D23E3900699E5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A2673B18D23E3900699E5F /* CoreGraphics.framework */; };
+		B8A2673E18D23E3900699E5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A2673D18D23E3900699E5F /* UIKit.framework */; };
+		B8A2674418D23E3900699E5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8A2674218D23E3900699E5F /* InfoPlist.strings */; };
+		B8A2674618D23E3900699E5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2674518D23E3900699E5F /* main.m */; };
+		B8A2674A18D23E3900699E5F /* BWSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2674918D23E3900699E5F /* BWSAppDelegate.m */; };
+		B8A2674D18D23E3900699E5F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A2674B18D23E3900699E5F /* Main_iPhone.storyboard */; };
+		B8A2675018D23E3900699E5F /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A2674E18D23E3900699E5F /* Main_iPad.storyboard */; };
+		B8A2675318D23E3900699E5F /* BWSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2675218D23E3900699E5F /* BWSMasterViewController.m */; };
+		B8A2675618D23E3900699E5F /* BWSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2675518D23E3900699E5F /* BWSDetailViewController.m */; };
+		B8A2675818D23E3900699E5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8A2675718D23E3900699E5F /* Images.xcassets */; };
+		B8A2675F18D23E3900699E5F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A2675E18D23E3900699E5F /* XCTest.framework */; };
+		B8A2676018D23E3900699E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A2673918D23E3900699E5F /* Foundation.framework */; };
+		B8A2676118D23E3900699E5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A2673D18D23E3900699E5F /* UIKit.framework */; };
+		B8A2676918D23E3900699E5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8A2676718D23E3900699E5F /* InfoPlist.strings */; };
+		B8A2676B18D23E3900699E5F /* kioskPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2676A18D23E3900699E5F /* kioskPlayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8A2676218D23E3900699E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A2672E18D23E3900699E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A2673518D23E3900699E5F;
+			remoteInfo = kioskPlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8A2673618D23E3900699E5F /* kioskPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kioskPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A2673918D23E3900699E5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B8A2673B18D23E3900699E5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B8A2673D18D23E3900699E5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B8A2674118D23E3900699E5F /* kioskPlay-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kioskPlay-Info.plist"; sourceTree = "<group>"; };
+		B8A2674318D23E3900699E5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8A2674518D23E3900699E5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B8A2674718D23E3900699E5F /* kioskPlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kioskPlay-Prefix.pch"; sourceTree = "<group>"; };
+		B8A2674818D23E3900699E5F /* BWSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWSAppDelegate.h; sourceTree = "<group>"; };
+		B8A2674918D23E3900699E5F /* BWSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWSAppDelegate.m; sourceTree = "<group>"; };
+		B8A2674C18D23E3900699E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B8A2674F18D23E3900699E5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B8A2675118D23E3900699E5F /* BWSMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWSMasterViewController.h; sourceTree = "<group>"; };
+		B8A2675218D23E3900699E5F /* BWSMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWSMasterViewController.m; sourceTree = "<group>"; };
+		B8A2675418D23E3900699E5F /* BWSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWSDetailViewController.h; sourceTree = "<group>"; };
+		B8A2675518D23E3900699E5F /* BWSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWSDetailViewController.m; sourceTree = "<group>"; };
+		B8A2675718D23E3900699E5F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B8A2675D18D23E3900699E5F /* kioskPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kioskPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A2675E18D23E3900699E5F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B8A2676618D23E3900699E5F /* kioskPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kioskPlayTests-Info.plist"; sourceTree = "<group>"; };
+		B8A2676818D23E3900699E5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B8A2676A18D23E3900699E5F /* kioskPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kioskPlayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8A2673318D23E3900699E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A2673C18D23E3900699E5F /* CoreGraphics.framework in Frameworks */,
+				B8A2673E18D23E3900699E5F /* UIKit.framework in Frameworks */,
+				B8A2673A18D23E3900699E5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A2675A18D23E3900699E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A2675F18D23E3900699E5F /* XCTest.framework in Frameworks */,
+				B8A2676118D23E3900699E5F /* UIKit.framework in Frameworks */,
+				B8A2676018D23E3900699E5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8A2672D18D23E3900699E5F = {
+			isa = PBXGroup;
+			children = (
+				B8A2673F18D23E3900699E5F /* kioskPlay */,
+				B8A2676418D23E3900699E5F /* kioskPlayTests */,
+				B8A2673818D23E3900699E5F /* Frameworks */,
+				B8A2673718D23E3900699E5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8A2673718D23E3900699E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2673618D23E3900699E5F /* kioskPlay.app */,
+				B8A2675D18D23E3900699E5F /* kioskPlayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8A2673818D23E3900699E5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2673918D23E3900699E5F /* Foundation.framework */,
+				B8A2673B18D23E3900699E5F /* CoreGraphics.framework */,
+				B8A2673D18D23E3900699E5F /* UIKit.framework */,
+				B8A2675E18D23E3900699E5F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8A2673F18D23E3900699E5F /* kioskPlay */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2674818D23E3900699E5F /* BWSAppDelegate.h */,
+				B8A2674918D23E3900699E5F /* BWSAppDelegate.m */,
+				B8A2674B18D23E3900699E5F /* Main_iPhone.storyboard */,
+				B8A2674E18D23E3900699E5F /* Main_iPad.storyboard */,
+				B8A2675118D23E3900699E5F /* BWSMasterViewController.h */,
+				B8A2675218D23E3900699E5F /* BWSMasterViewController.m */,
+				B8A2675418D23E3900699E5F /* BWSDetailViewController.h */,
+				B8A2675518D23E3900699E5F /* BWSDetailViewController.m */,
+				B8A2675718D23E3900699E5F /* Images.xcassets */,
+				B8A2674018D23E3900699E5F /* Supporting Files */,
+			);
+			path = kioskPlay;
+			sourceTree = "<group>";
+		};
+		B8A2674018D23E3900699E5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2674118D23E3900699E5F /* kioskPlay-Info.plist */,
+				B8A2674218D23E3900699E5F /* InfoPlist.strings */,
+				B8A2674518D23E3900699E5F /* main.m */,
+				B8A2674718D23E3900699E5F /* kioskPlay-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8A2676418D23E3900699E5F /* kioskPlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2676A18D23E3900699E5F /* kioskPlayTests.m */,
+				B8A2676518D23E3900699E5F /* Supporting Files */,
+			);
+			path = kioskPlayTests;
+			sourceTree = "<group>";
+		};
+		B8A2676518D23E3900699E5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8A2676618D23E3900699E5F /* kioskPlayTests-Info.plist */,
+				B8A2676718D23E3900699E5F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8A2673518D23E3900699E5F /* kioskPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A2676E18D23E3900699E5F /* Build configuration list for PBXNativeTarget "kioskPlay" */;
+			buildPhases = (
+				B8A2673218D23E3900699E5F /* Sources */,
+				B8A2673318D23E3900699E5F /* Frameworks */,
+				B8A2673418D23E3900699E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kioskPlay;
+			productName = kioskPlay;
+			productReference = B8A2673618D23E3900699E5F /* kioskPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8A2675C18D23E3900699E5F /* kioskPlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A2677118D23E3900699E5F /* Build configuration list for PBXNativeTarget "kioskPlayTests" */;
+			buildPhases = (
+				B8A2675918D23E3900699E5F /* Sources */,
+				B8A2675A18D23E3900699E5F /* Frameworks */,
+				B8A2675B18D23E3900699E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A2676318D23E3900699E5F /* PBXTargetDependency */,
+			);
+			name = kioskPlayTests;
+			productName = kioskPlayTests;
+			productReference = B8A2675D18D23E3900699E5F /* kioskPlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8A2672E18D23E3900699E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BWS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Big World Studios";
+				TargetAttributes = {
+					B8A2675C18D23E3900699E5F = {
+						TestTargetID = B8A2673518D23E3900699E5F;
+					};
+				};
+			};
+			buildConfigurationList = B8A2673118D23E3900699E5F /* Build configuration list for PBXProject "kioskPlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8A2672D18D23E3900699E5F;
+			productRefGroup = B8A2673718D23E3900699E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8A2673518D23E3900699E5F /* kioskPlay */,
+				B8A2675C18D23E3900699E5F /* kioskPlayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8A2673418D23E3900699E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A2675018D23E3900699E5F /* Main_iPad.storyboard in Resources */,
+				B8A2675818D23E3900699E5F /* Images.xcassets in Resources */,
+				B8A2674D18D23E3900699E5F /* Main_iPhone.storyboard in Resources */,
+				B8A2674418D23E3900699E5F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A2675B18D23E3900699E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A2676918D23E3900699E5F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8A2673218D23E3900699E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A2675318D23E3900699E5F /* BWSMasterViewController.m in Sources */,
+				B8A2674618D23E3900699E5F /* main.m in Sources */,
+				B8A2675618D23E3900699E5F /* BWSDetailViewController.m in Sources */,
+				B8A2674A18D23E3900699E5F /* BWSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A2675918D23E3900699E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A2676B18D23E3900699E5F /* kioskPlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8A2676318D23E3900699E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8A2673518D23E3900699E5F /* kioskPlay */;
+			targetProxy = B8A2676218D23E3900699E5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B8A2674218D23E3900699E5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A2674318D23E3900699E5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B8A2674B18D23E3900699E5F /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A2674C18D23E3900699E5F /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B8A2674E18D23E3900699E5F /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A2674F18D23E3900699E5F /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B8A2676718D23E3900699E5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8A2676818D23E3900699E5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8A2676C18D23E3900699E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8A2676D18D23E3900699E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8A2676F18D23E3900699E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kioskPlay/kioskPlay-Prefix.pch";
+				INFOPLIST_FILE = "kioskPlay/kioskPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B8A2677018D23E3900699E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kioskPlay/kioskPlay-Prefix.pch";
+				INFOPLIST_FILE = "kioskPlay/kioskPlay-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B8A2677218D23E3900699E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kioskPlay.app/kioskPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kioskPlay/kioskPlay-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kioskPlayTests/kioskPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B8A2677318D23E3900699E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kioskPlay.app/kioskPlay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kioskPlay/kioskPlay-Prefix.pch";
+				INFOPLIST_FILE = "kioskPlayTests/kioskPlayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8A2673118D23E3900699E5F /* Build configuration list for PBXProject "kioskPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A2676C18D23E3900699E5F /* Debug */,
+				B8A2676D18D23E3900699E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A2676E18D23E3900699E5F /* Build configuration list for PBXNativeTarget "kioskPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A2676F18D23E3900699E5F /* Debug */,
+				B8A2677018D23E3900699E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B8A2677118D23E3900699E5F /* Build configuration list for PBXNativeTarget "kioskPlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A2677218D23E3900699E5F /* Debug */,
+				B8A2677318D23E3900699E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8A2672E18D23E3900699E5F /* Project object */;
+}
