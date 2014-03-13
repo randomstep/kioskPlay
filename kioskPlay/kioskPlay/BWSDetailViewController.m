@@ -10,6 +10,14 @@
 
 @interface BWSDetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
+
+@property (nonatomic, strong) UIWindow *externalWindow;
+@property (nonatomic, strong) UIView *externalView;
+
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
+
+- (IBAction)startShow:(UIButton *)sender;
+
 - (void)configureView;
 @end
 
@@ -29,6 +37,29 @@
     if (self.masterPopoverController != nil) {
         [self.masterPopoverController dismissPopoverAnimated:YES];
     }        
+}
+
+- (IBAction)startShow:(UIButton *)sender
+{
+    __unused BOOL setup = [self configureExternalView];
+
+}
+
+- (BOOL)configureExternalView
+{
+    NSArray *screens = [UIScreen screens];
+    if (screens.count < 2) return NO;
+
+    UIScreen *secondScreen = screens[1];
+
+    self.externalWindow = [[UIWindow alloc] initWithFrame:secondScreen.applicationFrame];
+    self.externalWindow.screen = secondScreen;
+
+    self.externalWindow.backgroundColor = [UIColor orangeColor];
+
+    [self.externalWindow makeKeyAndVisible];
+
+    return YES;
 }
 
 - (void)configureView
