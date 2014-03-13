@@ -8,6 +8,8 @@
 
 #import "BWSDetailViewController.h"
 
+#import "BWSSimpleViewController.h"
+
 @interface BWSDetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
 
@@ -56,6 +58,11 @@
     self.externalWindow.screen = secondScreen;
 
     self.externalWindow.backgroundColor = [UIColor orangeColor];
+
+    UIStoryboard *collectionStoryboard = [UIStoryboard storyboardWithName:@"Collections" bundle:nil];
+    BWSSimpleViewController *simpleVC = [collectionStoryboard instantiateInitialViewController];
+
+    [self.externalWindow setRootViewController:simpleVC];
 
     [self.externalWindow makeKeyAndVisible];
 

@@ -23,6 +23,8 @@
 		B8A2676118D23E3900699E5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A2673D18D23E3900699E5F /* UIKit.framework */; };
 		B8A2676918D23E3900699E5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B8A2676718D23E3900699E5F /* InfoPlist.strings */; };
 		B8A2676B18D23E3900699E5F /* kioskPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2676A18D23E3900699E5F /* kioskPlayTests.m */; };
+		B8A2677518D24A8500699E5F /* Collections.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8A2677418D24A8500699E5F /* Collections.storyboard */; };
+		B8A2677818D24ABA00699E5F /* BWSSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A2677718D24ABA00699E5F /* BWSSimpleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		B8A2676618D23E3900699E5F /* kioskPlayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kioskPlayTests-Info.plist"; sourceTree = "<group>"; };
 		B8A2676818D23E3900699E5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B8A2676A18D23E3900699E5F /* kioskPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kioskPlayTests.m; sourceTree = "<group>"; };
+		B8A2677418D24A8500699E5F /* Collections.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Collections.storyboard; sourceTree = "<group>"; };
+		B8A2677618D24ABA00699E5F /* BWSSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWSSimpleViewController.h; sourceTree = "<group>"; };
+		B8A2677718D24ABA00699E5F /* BWSSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWSSimpleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 		B8A2673F18D23E3900699E5F /* kioskPlay */ = {
 			isa = PBXGroup;
 			children = (
+				B8A2677418D24A8500699E5F /* Collections.storyboard */,
+				B8A2677618D24ABA00699E5F /* BWSSimpleViewController.h */,
+				B8A2677718D24ABA00699E5F /* BWSSimpleViewController.m */,
 				B8A2674818D23E3900699E5F /* BWSAppDelegate.h */,
 				B8A2674918D23E3900699E5F /* BWSAppDelegate.m */,
 				B8A2674B18D23E3900699E5F /* Main_iPhone.storyboard */,
@@ -239,6 +247,7 @@
 			files = (
 				B8A2675018D23E3900699E5F /* Main_iPad.storyboard in Resources */,
 				B8A2675818D23E3900699E5F /* Images.xcassets in Resources */,
+				B8A2677518D24A8500699E5F /* Collections.storyboard in Resources */,
 				B8A2674D18D23E3900699E5F /* Main_iPhone.storyboard in Resources */,
 				B8A2674418D23E3900699E5F /* InfoPlist.strings in Resources */,
 			);
@@ -261,6 +270,7 @@
 			files = (
 				B8A2675318D23E3900699E5F /* BWSMasterViewController.m in Sources */,
 				B8A2674618D23E3900699E5F /* main.m in Sources */,
+				B8A2677818D24ABA00699E5F /* BWSSimpleViewController.m in Sources */,
 				B8A2675618D23E3900699E5F /* BWSDetailViewController.m in Sources */,
 				B8A2674A18D23E3900699E5F /* BWSAppDelegate.m in Sources */,
 			);
